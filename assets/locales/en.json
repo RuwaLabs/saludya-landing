@@ -1,0 +1,183 @@
+{
+  "brand": {
+    "name": "SaludYa"
+  },
+  "nav": {
+    "ariaLabel": "Main navigation",
+    "toggleOpen": "Open menu",
+    "toggleClose": "Close menu",
+    "product": "Product",
+    "videos": "Videos",
+    "testimonials": "Testimonials",
+    "about": "About us",
+    "cta": "Download app"
+  },
+  "lang": {
+    "ariaLabel": "Language selector"
+  },
+  "hero": {
+    "eyebrow": "RuwaLabs presents",
+    "title": "Medical appointments without queues, without waking up early, without uncertainty",
+    "subtitle": "SaludYa connects patients with the staff of public health facilities in Peru. Book your appointment, get notified when a slot is freed, and arrive right on time.",
+    "ctaPrimary": "Download the app",
+    "ctaSecondary": "See how it works",
+    "bullet1": "Real-time appointment availability",
+    "bullet2": "Dynamic waiting list",
+    "bullet3": "QR check-in and symptom pre-filter",
+    "imgAlt": "Patient using the SaludYa app on their phone"
+  },
+  "problem": {
+    "title": "The problem we solve",
+    "subtitle": "In public health facilities, getting an appointment still depends on waking up early and standing in long queues.",
+    "card1": {
+      "title": "Waking up without certainty",
+      "text": "Patients arrive as early as 4:30 a.m. and still do not always find an available slot."
+    },
+    "card2": {
+      "title": "Lost appointment slots",
+      "text": "Cancellations and no-shows are not reassigned because there is no formal record."
+    },
+    "card3": {
+      "title": "Paper-based management",
+      "text": "Administrative staff work with notebooks and Excel sheets, which causes errors and overload."
+    }
+  },
+  "solution": {
+    "title": "The SaludYa solution",
+    "subtitle": "Two mobile apps working together: one for the patient and one for the facility staff.",
+    "patient": {
+      "title": "Patient app",
+      "item1": "Appointment booking with real-time availability",
+      "item2": "Push notifications when a slot is freed",
+      "item3": "Dynamic waiting list",
+      "item4": "Symptom pre-filter",
+      "item5": "Management of dependent family members",
+      "item6": "QR code check-in"
+    },
+    "staff": {
+      "title": "Health staff app",
+      "item1": "Centralized appointment management",
+      "item2": "Real-time visualization of the care flow",
+      "item3": "Control of cancellations and no-shows",
+      "item4": "Automatic reassignment of freed slots",
+      "item5": "Digital patient records",
+      "item6": "Reduced operational workload"
+    }
+  },
+  "videos": {
+    "title": "Learn more about SaludYa",
+    "subtitle": "Watch the videos about the product and the team behind RuwaLabs.",
+    "product": {
+      "title": "About the Product",
+      "caption": "Overview of the business model and the main features of SaludYa."
+    },
+    "team": {
+      "title": "About the Team",
+      "caption": "Work process, achievements and lessons learned by the RuwaLabs team."
+    }
+  },
+  "business": {
+    "title": "Business model",
+    "subtitle": "SaludYa is a service with no direct cost to the patient. It is sustained through institutional implementation in public health facilities and agreements with health networks and DIRIS.",
+    "card1": {
+      "title": "Institutional implementation",
+      "text": "Public facilities license the platform to digitize their appointment management."
+    },
+    "card2": {
+      "title": "Agreements with health networks",
+      "text": "Partnerships with MINSA, SIS and DIRIS for early adoption and official backing."
+    },
+    "card3": {
+      "title": "Support and training",
+      "text": "Support and training services for clinical and administrative staff."
+    }
+  },
+  "testimonials": {
+    "title": "What our users say",
+    "subtitle": "Testimonials gathered during validation interviews with patients and health staff.",
+    "kevin": {
+      "quote": "An app that does not crash and that notifies me when a slot is freed would let me better organize my work time.",
+      "role": "Patient — San Juan de Lurigancho"
+    },
+    "franco": {
+      "quote": "A system that shows real-time slot availability would eliminate much of the repetitive manual registration.",
+      "role": "Admission technician — San Juan de Lurigancho"
+    },
+    "yordi": {
+      "quote": "A simple app, with large letters and few steps, that notifies me when a slot is freed, would be a great help.",
+      "role": "Patient — Villa María del Triunfo"
+    },
+    "braulio": {
+      "quote": "With an app that shows me real-time availability, I would no longer have to wake up early without certainty of getting care.",
+      "role": "Patient — Comas"
+    },
+    "wilmer": {
+      "quote": "Automating slot assignment and notifications would be key to reducing the staff's operational workload.",
+      "role": "Admission chief — Comas"
+    },
+    "deyvis": {
+      "quote": "Having patient information digitally available would help reduce dependence on paper.",
+      "role": "Nursing technician — Villa María del Triunfo"
+    }
+  },
+  "team": {
+    "title": "The RuwaLabs team",
+    "subtitle": "Software Engineering students at Universidad Peruana de Ciencias Aplicadas.",
+    "members": {
+      "rodrigo": "Aguilar Untiveros, Rodrigo Fabrizio",
+      "didier": "Meza Solórzano, Didier Sebastian",
+      "paula": "Montoya Nina, Paula Fernanda",
+      "neo": "Ramos Mera, Neo Daniel",
+      "alisee": "Torres Juárez, Alisee Muriel",
+      "rodrigoAlt": "Photo of Rodrigo Fabrizio Aguilar Untiveros",
+      "didierAlt": "Photo of Didier Sebastian Meza Solórzano",
+      "paulaAlt": "Photo of Paula Fernanda Montoya Nina",
+      "neoAlt": "Photo of Neo Daniel Ramos Mera",
+      "aliseeAlt": "Photo of Alisee Muriel Torres Juárez"
+    },
+    "role": {
+      "dev": "Mobile development",
+      "research": "Research and interviews",
+      "docs": "Documentation and analysis",
+      "ux": "UX/UI design",
+      "qa": "Quality and testing"
+    }
+  },
+  "about": {
+    "title": "About RuwaLabs and SaludYa",
+    "subtitle": "We are a startup formed by Software Engineering students at Universidad Peruana de Ciencias Aplicadas. Our goal is to digitize appointment management in public health facilities in Peru.",
+    "mission": {
+      "title": "Our mission",
+      "text": "To reduce barriers to healthcare access in the Peruvian public system, eliminating unnecessary queues and ensuring that every available slot is used by those who need it."
+    },
+    "vision": {
+      "title": "Our vision",
+      "text": "To become the standard for digital appointment management in public health facilities in Peru, with a simple, accessible and reliable solution for both patients and staff."
+    },
+    "values": {
+      "title": "Our values",
+      "v1": "Accessibility: design for everyone, including those unfamiliar with technology.",
+      "v2": "Transparency: clear information about availability, slots and care status.",
+      "v3": "Collaboration: we work hand in hand with health staff and patients.",
+      "v4": "Social impact: every operational improvement translates into better care for people."
+    },
+    "closing": "We are a team of Software Engineering students at UPC working to reduce barriers to public healthcare access in Peru."
+  },
+  "download": {
+    "title": "Download SaludYa",
+    "subtitle": "Coming soon for Android and iOS. Join the waiting list and we will let you know when it is ready.",
+    "android": "Google Play",
+    "ios": "App Store",
+    "androidAria": "Download SaludYa on Google Play",
+    "iosAria": "Download SaludYa on the App Store"
+  },
+  "footer": {
+    "tagline": "Medical appointments without queues for Peru.",
+    "links": "Links",
+    "legal": "Project",
+    "contact": "Contact",
+    "academic": "UPC academic project",
+    "download": "Download the app",
+    "copyright": "© 2026 RuwaLabs. All rights reserved."
+  }
+}

@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SaludYa — Plataforma digital que conecta pacientes y personal de establecimientos públicos de salud en Perú. Reserva de citas, lista de espera dinámica y check-in por QR.">
+  <meta name="keywords" content="SaludYa, citas médicas, MINSA, SIS, salud pública Perú, reserva de citas, lista de espera, RuwaLabs">
+  <meta name="author" content="RuwaLabs">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="SaludYa — Citas médicas sin colas">
+  <meta property="og:description" content="Reserva tu cita, recibe avisos de cupos liberados y llega justo a tu atención. Para pacientes y personal de establecimientos públicos de salud.">
+  <meta property="og:image" content="assets/img/icon-saludya.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://saludya.pe/">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SaludYa — Citas médicas sin colas">
+  <meta name="twitter:description" content="Reserva de citas, lista de espera dinámica y check-in por QR para establecimientos públicos de salud.">
+  <meta name="twitter:image" content="assets/img/icon-saludya.png">
+
+  <title>SaludYa — Citas médicas sin colas</title>
+
+  <link rel="icon" type="image/png" href="assets/img/icon-saludya.png">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+  <!-- ===== Header / Navbar ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#hero" class="brand" aria-label="SaludYa — Inicio">
+        <img src="assets/img/logo-saludya.png" alt="" class="brand-logo">
+        <span class="brand-name" data-i18n="brand.name"></span>
+      </a>
+
+      <div class="header-end">
+        <button class="nav-toggle" data-i18n-attr="aria-label:nav.toggleOpen" aria-expanded="false" aria-controls="primary-nav">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+
+        <nav id="primary-nav" class="primary-nav" data-i18n-attr="aria-label:nav.ariaLabel">
+          <ul class="nav-list">
+            <li><a href="#problem" data-i18n="nav.product" class="is-active"></a></li>
+            <li><a href="#videos" data-i18n="nav.videos"></a></li>
+            <li><a href="#testimonials" data-i18n="nav.testimonials"></a></li>
+            <li><a href="#about" data-i18n="nav.about"></a></li>
+          </ul>
+
+          <div class="lang-switch" role="group" data-i18n-attr="aria-label:lang.ariaLabel">
+            <button type="button" class="lang-btn is-active" data-lang="es" aria-pressed="true">ES</button>
+            <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+          </div>
+
+          <a href="#download" class="btn btn-primary nav-cta" data-i18n="nav.cta"></a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" role="main">
+
+    <!-- ===== Hero ===== -->
+    <section id="hero" class="hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-eyebrow" data-i18n="hero.eyebrow"></p>
+          <h1 id="hero-title" class="hero-title" data-i18n="hero.title"></h1>
+          <p class="hero-subtitle" data-i18n="hero.subtitle"></p>
+          <div class="hero-actions">
+            <a href="#download" class="btn btn-primary" data-i18n="hero.ctaPrimary"></a>
+            <a href="#videos" class="btn btn-ghost" data-i18n="hero.ctaSecondary"></a>
+          </div>
+          <ul class="hero-bullets">
+            <li>
+              <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+              <span data-i18n="hero.bullet1"></span>
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+              <span data-i18n="hero.bullet2"></span>
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+              <span data-i18n="hero.bullet3"></span>
+            </li>
+          </ul>
+        </div>
+        <div class="hero-visual">
+          <img src="assets/img/hero-bg.jpg" alt="" class="hero-img" loading="lazy" data-i18n-attr="alt:hero.imgAlt">
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Problema ===== -->
+    <section id="problem" class="section section-problem" aria-labelledby="problem-title">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="problem-title" data-i18n="problem.title"></h2>
+          <p class="section-subtitle" data-i18n="problem.subtitle"></p>
+        </header>
+
+        <div class="grid grid-3">
+          <article class="card">
+            <h3 data-i18n="problem.card1.title"></h3>
+            <p data-i18n="problem.card1.text"></p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="problem.card2.title"></h3>
+            <p data-i18n="problem.card2.text"></p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="problem.card3.title"></h3>
+            <p data-i18n="problem.card3.text"></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Solución ===== -->
+    <section id="solution" class="section section-solution" aria-labelledby="solution-title">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="solution-title" data-i18n="solution.title"></h2>
+          <p class="section-subtitle" data-i18n="solution.subtitle"></p>
+        </header>
+
+        <div class="grid grid-2">
+          <article class="feature">
+            <h3 data-i18n="solution.patient.title"></h3>
+            <ul>
+              <li data-i18n="solution.patient.item1"></li>
+              <li data-i18n="solution.patient.item2"></li>
+              <li data-i18n="solution.patient.item3"></li>
+              <li data-i18n="solution.patient.item4"></li>
+              <li data-i18n="solution.patient.item5"></li>
+              <li data-i18n="solution.patient.item6"></li>
+            </ul>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="solution.staff.title"></h3>
+            <ul>
+              <li data-i18n="solution.staff.item1"></li>
+              <li data-i18n="solution.staff.item2"></li>
+              <li data-i18n="solution.staff.item3"></li>
+              <li data-i18n="solution.staff.item4"></li>
+              <li data-i18n="solution.staff.item5"></li>
+              <li data-i18n="solution.staff.item6"></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Videos ===== -->
+    <section id="videos" class="section section-videos" aria-labelledby="videos-title">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="videos-title" data-i18n="videos.title"></h2>
+          <p class="section-subtitle" data-i18n="videos.subtitle"></p>
+        </header>
+
+        <div class="grid grid-2">
+          <article class="video-block">
+            <h3 data-i18n="videos.product.title"></h3>
+            <div class="video-wrapper">
+              <iframe
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                title="Video About the Product — SaludYa"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                loading="lazy">
+              </iframe>
+            </div>
+            <p data-i18n="videos.product.caption"></p>
+          </article>
+
+          <article class="video-block">
+            <h3 data-i18n="videos.team.title"></h3>
+            <div class="video-wrapper">
+              <iframe
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                title="Video About the Team — RuwaLabs"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                loading="lazy">
+              </iframe>
+            </div>
+            <p data-i18n="videos.team.caption"></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Modelo de negocio ===== -->
+    <section id="business" class="section section-business" aria-labelledby="business-title">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="business-title" data-i18n="business.title"></h2>
+          <p class="section-subtitle" data-i18n="business.subtitle"></p>
+        </header>
+
+        <div class="grid grid-3">
+          <article class="card">
+            <h3 data-i18n="business.card1.title"></h3>
+            <p data-i18n="business.card1.text"></p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="business.card2.title"></h3>
+            <p data-i18n="business.card2.text"></p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="business.card3.title"></h3>
+            <p data-i18n="business.card3.text"></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Testimonios ===== -->
+    <section id="testimonials" class="section section-testimonials" aria-labelledby="testimonials-title">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="testimonials-title" data-i18n="testimonials.title"></h2>
+          <p class="section-subtitle" data-i18n="testimonials.subtitle"></p>
+        </header>
+
+        <div class="grid grid-3">
+          <figure class="testimonial">
+            <blockquote>
+              <p data-i18n="testimonials.kevin.quote"></p>
+            </blockquote>
+            <figcaption>
+              <strong>Kevin Huamán</strong>
+              <span data-i18n="testimonials.kevin.role"></span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial">
+            <blockquote>
+              <p data-i18n="testimonials.franco.quote"></p>
+            </blockquote>
+            <figcaption>
+              <strong>Franco Alanoca</strong>
+              <span data-i18n="testimonials.franco.role"></span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial">
+            <blockquote>
+              <p data-i18n="testimonials.yordi.quote"></p>
+            </blockquote>
+            <figcaption>
+              <strong>Yordi Salazar</strong>
+              <span data-i18n="testimonials.yordi.role"></span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial">
+            <blockquote>
+              <p data-i18n="testimonials.braulio.quote"></p>
+            </blockquote>
+            <figcaption>
+              <strong>Braulio Núñez</strong>
+              <span data-i18n="testimonials.braulio.role"></span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial">
+            <blockquote>
+              <p data-i18n="testimonials.wilmer.quote"></p>
+            </blockquote>
+            <figcaption>
+              <strong>Wilmer Contreras</strong>
+              <span data-i18n="testimonials.wilmer.role"></span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial">
+            <blockquote>
+              <p data-i18n="testimonials.deyvis.quote"></p>
+            </blockquote>
+            <figcaption>
+              <strong>Deyvis Ochante</strong>
+              <span data-i18n="testimonials.deyvis.role"></span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Sobre nosotros (fusiona About + Team) ===== -->
+    <section id="about" class="section section-about" aria-labelledby="about-title">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="about-title" data-i18n="about.title"></h2>
+          <p class="section-subtitle" data-i18n="about.subtitle"></p>
+        </header>
+
+        <!-- Misión y Visión -->
+        <div class="about-pillars">
+          <article class="about-pillar">
+            <div class="about-pillar-icon" aria-hidden="true">
+              <i class="fa-solid fa-bullseye"></i>
+            </div>
+            <h3 data-i18n="about.mission.title"></h3>
+            <p data-i18n="about.mission.text"></p>
+          </article>
+
+          <article class="about-pillar">
+            <div class="about-pillar-icon" aria-hidden="true">
+              <i class="fa-solid fa-eye"></i>
+            </div>
+            <h3 data-i18n="about.vision.title"></h3>
+            <p data-i18n="about.vision.text"></p>
+          </article>
+        </div>
+
+        <!-- Valores -->
+        <div class="about-values-header">
+          <h3 data-i18n="about.values.title"></h3>
+        </div>
+        <ul class="values-grid">
+          <li class="value-card">
+            <div class="value-icon" aria-hidden="true">
+              <i class="fa-solid fa-universal-access"></i>
+            </div>
+            <span data-i18n="about.values.v1"></span>
+          </li>
+          <li class="value-card">
+            <div class="value-icon" aria-hidden="true">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <span data-i18n="about.values.v2"></span>
+          </li>
+          <li class="value-card">
+            <div class="value-icon" aria-hidden="true">
+              <i class="fa-solid fa-handshake"></i>
+            </div>
+            <span data-i18n="about.values.v3"></span>
+          </li>
+          <li class="value-card">
+            <div class="value-icon" aria-hidden="true">
+              <i class="fa-solid fa-heart-pulse"></i>
+            </div>
+            <span data-i18n="about.values.v4"></span>
+          </li>
+        </ul>
+
+        <!-- Equipo -->
+        <div class="about-team-header">
+          <h3 data-i18n="team.title"></h3>
+          <p data-i18n="team.subtitle"></p>
+        </div>
+        <ul class="team-list">
+          <li class="team-member">
+            <img src="assets/img/team/rodrigo.jpg" alt="" class="team-photo" loading="lazy" data-i18n-attr="alt:team.members.rodrigoAlt">
+            <strong data-i18n="team.members.rodrigo"></strong>
+            <span data-i18n="team.role.dev"></span>
+          </li>
+          <li class="team-member">
+            <img src="assets/img/team/didier.jpg" alt="" class="team-photo" loading="lazy" data-i18n-attr="alt:team.members.didierAlt">
+            <strong data-i18n="team.members.didier"></strong>
+            <span data-i18n="team.role.research"></span>
+          </li>
+          <li class="team-member">
+            <img src="assets/img/team/paula.jpg" alt="" class="team-photo" loading="lazy" data-i18n-attr="alt:team.members.paulaAlt">
+            <strong data-i18n="team.members.paula"></strong>
+            <span data-i18n="team.role.docs"></span>
+          </li>
+          <li class="team-member">
+            <img src="assets/img/team/neo.jpg" alt="" class="team-photo" loading="lazy" data-i18n-attr="alt:team.members.neoAlt">
+            <strong data-i18n="team.members.neo"></strong>
+            <span data-i18n="team.role.ux"></span>
+          </li>
+          <li class="team-member">
+            <img src="assets/img/team/alisee.jpg" alt="" class="team-photo" loading="lazy" data-i18n-attr="alt:team.members.aliseeAlt">
+            <strong data-i18n="team.members.alisee"></strong>
+            <span data-i18n="team.role.qa"></span>
+          </li>
+        </ul>
+
+        <!-- Cierre -->
+        <p class="about-closing" data-i18n="about.closing"></p>
+      </div>
+    </section>
+
+    <!-- ===== Descarga ===== -->
+    <section id="download" class="section section-download" aria-labelledby="download-title">
+      <div class="container download-inner">
+        <h2 id="download-title" data-i18n="download.title"></h2>
+        <p data-i18n="download.subtitle"></p>
+        <div class="store-buttons">
+          <a href="#" class="store-btn" data-i18n-attr="aria-label:download.androidAria">
+            <span data-i18n="download.android"></span>
+          </a>
+          <a href="#" class="store-btn" data-i18n-attr="aria-label:download.iosAria">
+            <span data-i18n="download.ios"></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <img src="assets/img/logo-saludya.png" alt="" class="footer-logo">
+        <p data-i18n="footer.tagline"></p>
+      </div>
+
+      <div class="footer-col">
+        <h3 data-i18n="footer.links"></h3>
+        <ul>
+          <li><a href="#problem" data-i18n="nav.product"></a></li>
+          <li><a href="#videos" data-i18n="nav.videos"></a></li>
+          <li><a href="#testimonials" data-i18n="nav.testimonials"></a></li>
+          <li><a href="#about" data-i18n="nav.about"></a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3 data-i18n="footer.legal"></h3>
+        <ul>
+          <li><a href="#about" data-i18n="footer.academic"></a></li>
+          <li><a href="#download" data-i18n="footer.download"></a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3 data-i18n="footer.contact"></h3>
+        <ul>
+          <li><a href="mailto:contacto@saludya.pe">contacto@saludya.pe</a></li>
+          <li><a href="https://github.com/RuwaLabs" target="_blank" rel="noopener">GitHub RuwaLabs</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p data-i18n="footer.copyright"></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/i18n.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

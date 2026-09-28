@@ -1,0 +1,183 @@
+{
+  "brand": {
+    "name": "SaludYa"
+  },
+  "nav": {
+    "ariaLabel": "Navegación principal",
+    "toggleOpen": "Abrir menú",
+    "toggleClose": "Cerrar menú",
+    "product": "Producto",
+    "videos": "Videos",
+    "testimonials": "Testimonios",
+    "about": "Sobre nosotros",
+    "cta": "Descargar app"
+  },
+  "lang": {
+    "ariaLabel": "Selector de idioma"
+  },
+  "hero": {
+    "eyebrow": "RuwaLabs presenta",
+    "title": "Citas médicas sin colas, sin madrugar, sin incertidumbre",
+    "subtitle": "SaludYa conecta a los pacientes con el personal de los establecimientos públicos de salud del Perú. Reserva tu cita, recibe avisos cuando se libere un cupo y llega justo a tu atención.",
+    "ctaPrimary": "Descargar la app",
+    "ctaSecondary": "Ver cómo funciona",
+    "bullet1": "Disponibilidad de citas en tiempo real",
+    "bullet2": "Lista de espera dinámica",
+    "bullet3": "Check-in por QR y pre-filtro de síntomas",
+    "imgAlt": "Paciente usando la aplicación SaludYa en su celular"
+  },
+  "problem": {
+    "title": "El problema que resolvemos",
+    "subtitle": "En los establecimientos públicos de salud, conseguir una cita todavía depende de madrugar y hacer largas colas.",
+    "card1": {
+      "title": "Madrugar sin certeza",
+      "text": "Los pacientes llegan desde las 4:30 a.m. y aun así no siempre encuentran cupo disponible."
+    },
+    "card2": {
+      "title": "Cupos que se pierden",
+      "text": "Las cancelaciones e inasistencias no se reasignan porque no existe un registro formal."
+    },
+    "card3": {
+      "title": "Gestión en papel",
+      "text": "El personal administrativo trabaja con cuadernos y hojas de Excel, lo que genera errores y sobrecarga."
+    }
+  },
+  "solution": {
+    "title": "La solución SaludYa",
+    "subtitle": "Dos aplicaciones móviles que trabajan juntas: una para el paciente y otra para el personal del establecimiento.",
+    "patient": {
+      "title": "App para pacientes",
+      "item1": "Reserva de citas con disponibilidad en tiempo real",
+      "item2": "Notificaciones push cuando se libera un cupo",
+      "item3": "Lista de espera dinámica",
+      "item4": "Pre-filtro de síntomas",
+      "item5": "Gestión de familiares a cargo",
+      "item6": "Check-in por código QR"
+    },
+    "staff": {
+      "title": "App para personal de salud",
+      "item1": "Gestión centralizada de citas",
+      "item2": "Visualización del flujo de atención en tiempo real",
+      "item3": "Control de cancelaciones e inasistencias",
+      "item4": "Reasignación automática de cupos liberados",
+      "item5": "Registro digital de pacientes",
+      "item6": "Reducción de carga operativa"
+    }
+  },
+  "videos": {
+    "title": "Conoce más sobre SaludYa",
+    "subtitle": "Mira los videos del producto y del equipo detrás de RuwaLabs.",
+    "product": {
+      "title": "About the Product",
+      "caption": "Resumen del modelo de negocio y las características principales de SaludYa."
+    },
+    "team": {
+      "title": "About the Team",
+      "caption": "Proceso de trabajo, logros y aprendizajes del equipo RuwaLabs."
+    }
+  },
+  "business": {
+    "title": "Modelo de negocio",
+    "subtitle": "SaludYa es un servicio sin costo directo para el paciente. Se sostiene mediante implementación institucional en establecimientos públicos de salud y convenios con redes de salud y DIRIS.",
+    "card1": {
+      "title": "Implementación institucional",
+      "text": "Los establecimientos públicos licencian la plataforma para digitalizar su gestión de citas."
+    },
+    "card2": {
+      "title": "Convenios con redes de salud",
+      "text": "Alianzas con MINSA, SIS y DIRIS para adopción temprana y respaldo oficial."
+    },
+    "card3": {
+      "title": "Soporte y capacitación",
+      "text": "Servicios de acompañamiento y capacitación al personal asistencial y administrativo."
+    }
+  },
+  "testimonials": {
+    "title": "Lo que dicen nuestros usuarios",
+    "subtitle": "Testimonios recogidos durante las entrevistas de validación con pacientes y personal de salud.",
+    "kevin": {
+      "quote": "Una app que no se cuelgue y que me avise cuando se libere un cupo me permitiría organizar mejor mi tiempo de trabajo.",
+      "role": "Paciente — San Juan de Lurigancho"
+    },
+    "franco": {
+      "quote": "Un sistema que muestre en tiempo real la disponibilidad de cupos eliminaría gran parte del registro manual repetitivo.",
+      "role": "Técnico de admisión — San Juan de Lurigancho"
+    },
+    "yordi": {
+      "quote": "Una aplicación sencilla, con letras grandes y pocos pasos, que me avise cuando se libere un cupo, sería de gran ayuda.",
+      "role": "Paciente — Villa María del Triunfo"
+    },
+    "braulio": {
+      "quote": "Con una app que me muestre la disponibilidad en tiempo real ya no tendría que madrugar sin certeza de conseguir atención.",
+      "role": "Paciente — Comas"
+    },
+    "wilmer": {
+      "quote": "Automatizar la asignación de cupos y las notificaciones sería clave para reducir la carga operativa del personal.",
+      "role": "Jefe de admisión — Comas"
+    },
+    "deyvis": {
+      "quote": "Contar con la información del paciente de forma digital ayudaría a reducir la dependencia del papel.",
+      "role": "Técnico de enfermería — Villa María del Triunfo"
+    }
+  },
+  "team": {
+    "title": "El equipo RuwaLabs",
+    "subtitle": "Estudiantes de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas.",
+    "members": {
+      "rodrigo": "Aguilar Untiveros, Rodrigo Fabrizio",
+      "didier": "Meza Solórzano, Didier Sebastian",
+      "paula": "Montoya Nina, Paula Fernanda",
+      "neo": "Ramos Mera, Neo Daniel",
+      "alisee": "Torres Juárez, Alisee Muriel",
+      "rodrigoAlt": "Fotografía de Rodrigo Fabrizio Aguilar Untiveros",
+      "didierAlt": "Fotografía de Didier Sebastian Meza Solórzano",
+      "paulaAlt": "Fotografía de Paula Fernanda Montoya Nina",
+      "neoAlt": "Fotografía de Neo Daniel Ramos Mera",
+      "aliseeAlt": "Fotografía de Alisee Muriel Torres Juárez"
+    },
+    "role": {
+      "dev": "Desarrollo móvil",
+      "research": "Investigación y entrevistas",
+      "docs": "Documentación y análisis",
+      "ux": "Diseño UX/UI",
+      "qa": "Calidad y pruebas"
+    }
+  },
+  "about": {
+    "title": "Sobre RuwaLabs y SaludYa",
+    "subtitle": "Somos una startup formada por estudiantes de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas. Nuestro objetivo es digitalizar la gestión de citas en los establecimientos públicos de salud del Perú.",
+    "mission": {
+      "title": "Nuestra misión",
+      "text": "Reducir las barreras de acceso a la atención médica en el sistema público peruano, eliminando las colas innecesarias y garantizando que cada cupo disponible sea aprovechado por quien lo necesita."
+    },
+    "vision": {
+      "title": "Nuestra visión",
+      "text": "Convertirnos en el estándar de gestión digital de citas en los establecimientos públicos de salud del Perú, con una solución simple, accesible y confiable tanto para pacientes como para el personal."
+    },
+    "values": {
+      "title": "Nuestros valores",
+      "v1": "Accesibilidad: diseño pensado para todos, incluso para quienes no están familiarizados con la tecnología.",
+      "v2": "Transparencia: información clara sobre disponibilidad, cupos y estado de la atención.",
+      "v3": "Colaboración: trabajamos de la mano con el personal de salud y los pacientes.",
+      "v4": "Impacto social: cada mejora operativa se traduce en mejor atención para las personas."
+    },
+    "closing": "Somos un equipo de estudiantes de Ingeniería de Software de la UPC trabajando para reducir las barreras de acceso a la salud pública en el Perú."
+  },
+  "download": {
+    "title": "Descarga SaludYa",
+    "subtitle": "Disponible próximamente para Android y iOS. Únete a la lista de espera y te avisaremos cuando esté lista.",
+    "android": "Google Play",
+    "ios": "App Store",
+    "androidAria": "Descargar SaludYa en Google Play",
+    "iosAria": "Descargar SaludYa en App Store"
+  },
+  "footer": {
+    "tagline": "Citas médicas sin colas para el Perú.",
+    "links": "Enlaces",
+    "legal": "Proyecto",
+    "contact": "Contacto",
+    "academic": "Proyecto académico UPC",
+    "download": "Descargar la app",
+    "copyright": "© 2026 RuwaLabs. Todos los derechos reservados."
+  }
+}
